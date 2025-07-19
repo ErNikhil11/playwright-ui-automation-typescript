@@ -1,0 +1,17 @@
+{
+  "name": "swag-api-playwright",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript API testing framework for Swag Labs dummy API",
+  "scripts": {
+    "test": "npx playwright test",
+    "allure:generate": "npx allure generate allure-results --clean -o allure-report",
+    "allure:open": "npx allure open allure-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "allure-commandline": "^2.24.0",
+    "dotenv": "^16.3.1",
+    "typescript": "^5.4.0",
+    "ts-node": "^10.9.1"
+  }
+}
