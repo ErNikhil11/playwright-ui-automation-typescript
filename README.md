@@ -55,4 +55,38 @@ npx playwright test
 npx playwright show-report
 ```
 
+## ✅ Test Scenarios
+
+### 🔐 `login.spec.ts`
+
+- ✅ **Valid login**  
+  Ensure users with correct credentials can successfully log in and navigate to the dashboard.
+
+- ❌ **Invalid login (wrong user/pass)**  
+  Validate that incorrect credentials display an error and restrict access.
+
+- 🚫 **Locked-out user validation**  
+  Verify locked-out users receive the appropriate error message and are prevented from logging in.
+
 ---
+
+### 🛒 `add-to-cart.spec.ts`
+
+- ➕ **Add single/multiple products to cart**  
+  Test the ability to add one or multiple items to the shopping cart from the inventory page.
+
+- 🔢 **Verify cart item count and names**  
+  Ensure the number of products and their names match the user selection when added to the cart.
+
+---
+
+### 💳 `checkout.spec.ts`
+
+- 🧾 **Complete checkout flow**  
+  Validate the full purchase process—from cart to order confirmation—with valid user details.
+
+- 🛑 **Field validation in checkout steps**  
+  Confirm proper error handling for missing or invalid user information in checkout steps.
+
+- ✅ **Final order confirmation**  
+  Ensure users receive a confirmation message/page after successful order placement.
