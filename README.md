@@ -39,7 +39,6 @@ Create a .env file (already included) if not present:
 
 ```
 BASE_URL=https://www.saucedemo.com
-
 ```
 
 ### 3. Run all test
