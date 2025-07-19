@@ -88,3 +88,18 @@ npx playwright show-report
 
 - ✅ **Final order confirmation**  
   Ensure users receive a confirmation message/page after successful order placement.
+
+  ## 📌 Highlights
+
+- 🧱 **Page Object Model** for modular, reusable code  
+  Logical separation of page interactions to maintain clean and maintainable test code.
+
+- 🌐 **Configurable base URL via `.env`**  
+  Easily switch environments without changing code.
+
+- 📷 **Screenshots, videos & traces on test failure**  
+  Auto-capture evidence for debugging failed tests.
+
+- 🧪 **Playwright's powerful test runner with parallel execution**  
+  High-performance execution with built-in retries, parallelism, and rich reports.
+
