@@ -35,10 +35,9 @@ npm install
 ```
 
 ### 2. Set environment variables
-
-```
 Create a .env file (already included) if not present:
 
+```
 BASE_URL=https://www.saucedemo.com
 
 ```
